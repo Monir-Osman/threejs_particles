@@ -18,7 +18,7 @@ const geometry = new THREE.TorusGeometry(0.7, 0.2, 16, 100);
 // Materials
 
 const material = new THREE.MeshBasicMaterial({ wireframe: true });
-material.color = new THREE.Color(0x00ff00);
+material.color = new THREE.Color(0x0000ff);
 
 // Mesh
 const sphere = new THREE.Mesh(geometry, material);
