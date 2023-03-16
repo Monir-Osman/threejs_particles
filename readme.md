@@ -1,11 +1,9 @@
-# Install dependencies (only the first time)
+Install dependencies (only the first time)
 
-npm install
+1: npm install
 
-# Run the local server at localhost:8080
+2: npm run dev
 
-npm run dev
-
-# Build for production in the dist/ directory
+Build for production in the dist/ directory
 
 npm run build
